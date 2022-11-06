@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+    font-style: normal;
+    font-family: 'Roboto', sans-serif;
+}
+img{
+    display: block;
+}
+.container{
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+.header{
+    padding: 20px 0;
+    text-align: center;
+    background: #0959ae;
+    color: #fff;
+    margin-bottom: 30px;
+}
+.products__row{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 350px));
+    justify-content: center;
+    gap: 30px;
+}
